@@ -5,7 +5,6 @@ pragma solidity ^0.6.0;
 contract SimpleStorage {
 
 	uint256 favouriteNumber;
-	bool favouriteBool;
 	
 	struct People {
 		uint256 favouriteNumber;
@@ -15,11 +14,11 @@ contract SimpleStorage {
 	People[] public people;
 	mapping(string => uint256) public nameToFavouriteNumber;
 	
-	function store(uint256 _favouriteNumber) public {
+	function storeFavouriteNumber(uint256 _favouriteNumber) public {
 		favouriteNumber = _favouriteNumber;
 	}
 	
-	function retrieve() public view returns(uint256) {
+	function retrieveFavouriteNumber() public view returns(uint256) {
 		return favouriteNumber;
 	}
 	
