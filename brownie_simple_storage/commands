@@ -1,0 +1,9 @@
+brownie console
+brownie netowrks list
+brownie test
+brownie accounts list
+brownie accounts new <name>
+brownie compile
+brownie run scripts/deploy.py
+brownie run scripts/deploy.py --network ropsten
+brownie run scripts/read_value.py --network ropsten
