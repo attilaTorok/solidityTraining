@@ -1,4 +1,4 @@
-dependecies:
+dependencies:
   - smartcontractkit/chainlink-brownie-contracts@1.1.1
   - OpenZeppelin/openzeppelin-contracts@3.4.0
 compiler:
