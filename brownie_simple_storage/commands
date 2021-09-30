@@ -7,3 +7,5 @@ brownie compile
 brownie run scripts/deploy.py
 brownie run scripts/deploy.py --network ropsten
 brownie run scripts/read_value.py --network ropsten
+
+brownie networks add Ethereum ganache-local host=<host> chainid=<chainid>
