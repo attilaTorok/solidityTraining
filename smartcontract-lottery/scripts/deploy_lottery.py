@@ -3,7 +3,7 @@ from brownie import Lottery, network, config
 import time
 
 
-def deploy_lottery():
+def deploy_lottery() -> Lottery:
     account = get_account()
     lottery = Lottery.deploy(
         get_contract("eth_usd_price_feed").address,
@@ -15,6 +15,7 @@ def deploy_lottery():
         publish_source=config["networks"][network.show_active()].get("verify", False),
     )
     print("Deployed lottery!")
+    return lottery
 
 
 def start_lottery():
