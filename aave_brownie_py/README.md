@@ -1,4 +1,3 @@
-1. Deposit some ETH into Aave
-2. Borrow some asset with the ETH collateral
-    1. Sell that borrowed asset. (Short selling)
-3. Repay everything back
+This is a repo modified for freecodecamp - and will reflect the code done in that video.
+
+You can see the [inspiration repo here.](https://github.com/PatrickAlphaC/aave_brownie_py)
